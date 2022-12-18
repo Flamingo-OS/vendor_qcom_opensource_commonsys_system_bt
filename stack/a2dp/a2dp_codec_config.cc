@@ -1958,6 +1958,7 @@ bool A2DP_DumpCodecInfo(const uint8_t* p_codec_info) {
   LOG_ERROR(LOG_TAG, "%s: unsupported codec type 0x%x", __func__, codec_type);
   return false;
 }
+
 void print_codec_config(uint8_t codec_arry[]) {
    for(int i = 0; i < AVDT_CODEC_SIZE; i++)
    {
